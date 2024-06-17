@@ -13,8 +13,6 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  transition: all 1s ease-out;
-  border-color: none;
 }
 
 .main-container {
@@ -135,17 +133,20 @@ body {
   color: white;
 }
 
-.work img {
-  float: inline-end;
-}
-
 .work:hover {
   background-color: hsl(235, 45%, 61%);
 }
 
-.work h3 {
+.work1 h3 {
   margin-top: 8px;
   font-size: medium;
+  display: inline;
+}
+
+.work1 img {
+  display: inline;
+  padding: right;
+  padding-left: 90px;
 }
 
 .work h2 {
@@ -160,6 +161,18 @@ body {
   color: hsl(236, 100%, 87%);
   letter-spacing: 1px;
   margin-left: 7px;
+}
+
+.play1 h2 {
+  margin-top: 8px;
+  font-size: medium;
+  display: inline;
+}
+
+.play1 img {
+  display: inline;
+  padding: right;
+  padding-left: 90px;
 }
 
 .card-2 {
@@ -219,12 +232,6 @@ body {
   padding: 20px;
 }
 
-.card-3 .study h2 {
-  color: white;
-  margin-top: 8px;
-  font-size: medium;
-}
-
 .card-3 .study h3 {
   color: white;
   margin-top: 24px;
@@ -238,6 +245,19 @@ body {
   color: hsl(236, 100%, 87%);
   letter-spacing: 1px;
   margin-left: 7px;
+}
+
+.study1 h2 {
+  color: white;
+  margin-top: 8px;
+  font-size: medium;
+  display: inline;
+}
+
+.study1 img {
+  display: inline;
+  padding: right;
+  padding-left: 90px;
 }
 
 .study:hover {
@@ -260,10 +280,16 @@ body {
   padding: 20px;
 }
 
-.card-4 .exercise h2 {
+.exercise1 h2 {
   color: white;
   margin-top: 8px;
   font-size: medium;
+  display: inline;
+}
+
+.exercise1 img {
+  display: inline;
+  float: right;
 }
 
 .card-4 .exercise h3 {
@@ -301,10 +327,16 @@ body {
   padding: 20px;
 }
 
-.card-5 .social h2 {
+.social1 h2 {
   color: white;
   margin-top: 8px;
   font-size: medium;
+  display: inline;
+}
+
+.social1 img {
+  display: inline;
+  float: right;
 }
 
 .card-5 .social h3 {
@@ -342,10 +374,16 @@ body {
   padding: 20px;
 }
 
-.card-6 .self h2 {
+.self h2 {
   color: white;
   margin-top: 8px;
   font-size: medium;
+  display: inline;
+}
+
+.self1 img {
+  display: inline;
+  float: right;
 }
 
 .card-6 .self h3 {
