@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: hsl(226, 43%, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: all 1s ease-out;
+  border-color: none;
+}
+
+.main-container {
+  border: 1px solid;
+  display: flex;
+  gap: 20px;
+}
+
+.left-container {
+  width: 200px;
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 15px;
+  height: 280px;
+  color: white;
+}
+
+.left-container img {
+  width: 70px;
+  margin-top: 18px;
+  margin-left: 15px;
+  border: white 3px solid;
+  border-radius: 50%;
+}
+
+.left-container .name h3 {
+  margin-top: 35px;
+  font-size: small;
+  margin-left: 18px;
+  color: hsl(236, 100%, 87%);
+}
+
+.left-container .name h2 {
+  margin-top: 8px;
+  font-size: 30px;
+  margin-left: 16px;
+}
+
+.left-container .left-down {
+  background-color: hsl(235, 46%, 20%);
+  margin-top: 60px;
+  height: 142px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.left-container .left-down h2 {
+  padding-top: 4vh;
+  margin-left: 18px;
+  font-size: 17px;
+  color: hsl(236, 100%, 87%);
+}
+
+.left-container .left-down h2:hover {
+  color: white;
+}
+
+.left-container .left-down h3:hover {
+  color: white;
+}
+
+.left-container .left-down p:hover {
+  color: white;
+}
+
+.left-container .left-down h3 {
+  margin-left: 18px;
+  padding-top: 2vh;
+  font-size: 17px;
+  color: hsl(236, 100%, 87%);
+}
+
+.left-container .left-down p {
+  margin-left: 18px;
+  padding-top: 2vh;
+  font-size: 17px;
+  color: hsl(236, 100%, 87%);
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top {
+  display: flex;
+  gap: 20px;
+}
+
+.bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  align-items: end;
+  overflow: hidden;
+}
+
+.card-1 {
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(./images/icon-work.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.card-1 .work {
+  background-color: hsl(235, 46%, 20%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+  color: white;
+}
+
+.work img {
+  float: inline-end;
+}
+
+.work:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.work h3 {
+  margin-top: 8px;
+  font-size: medium;
+}
+
+.work h2 {
+  margin-top: 24px;
+  margin-left: 7px;
+  font-size: 40px;
+}
+
+.work p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(236, 100%, 87%);
+  letter-spacing: 1px;
+  margin-left: 7px;
+}
+
+.card-2 {
+  background-color: hsl(195, 74%, 62%);
+  background-image: url(images/icon-play.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.card-2 .play {
+  background-color: hsl(235, 46%, 20%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+}
+
+.card-2 .play h2 {
+  color: white;
+  margin-top: 8px;
+  font-size: medium;
+}
+
+.card-2 .play h3 {
+  color: white;
+  margin-top: 24px;
+  margin-left: 7px;
+  font-size: 40px;
+}
+
+.play:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.card-2 .play p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(236, 100%, 87%);
+  letter-spacing: 1px;
+  margin-left: 7px;
+}
+
+.card-3 {
+  background-color: hsl(348, 100%, 68%);
+  background-image: url(images/icon-study.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.card-3 .study {
+  background-color: hsl(235, 46%, 20%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+}
+
+.card-3 .study h2 {
+  color: white;
+  margin-top: 8px;
+  font-size: medium;
+}
+
+.card-3 .study h3 {
+  color: white;
+  margin-top: 24px;
+  margin-left: 7px;
+  font-size: 40px;
+}
+
+.card-3 .study p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(236, 100%, 87%);
+  letter-spacing: 1px;
+  margin-left: 7px;
+}
+
+.study:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.card-4 {
+  background-color: hsl(145, 58%, 55%);
+  background-image: url(images/icon-exercise.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.card-4 .exercise {
+  background-color: hsl(235, 46%, 20%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+}
+
+.card-4 .exercise h2 {
+  color: white;
+  margin-top: 8px;
+  font-size: medium;
+}
+
+.card-4 .exercise h3 {
+  color: white;
+  margin-top: 24px;
+  margin-left: 7px;
+  font-size: 40px;
+}
+
+.card-4 .exercise p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(236, 100%, 87%);
+  letter-spacing: 1px;
+  margin-left: 7px;
+}
+
+.exercise:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.card-5 {
+  background-color: hsl(264, 64%, 52%);
+  background-image: url(images/icon-social.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.card-5 .social {
+  background-color: hsl(235, 46%, 20%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+}
+
+.card-5 .social h2 {
+  color: white;
+  margin-top: 8px;
+  font-size: medium;
+}
+
+.card-5 .social h3 {
+  color: white;
+  margin-top: 24px;
+  margin-left: 7px;
+  font-size: 40px;
+}
+
+.card-5 .social p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(236, 100%, 87%);
+  letter-spacing: 1px;
+  margin-left: 7px;
+}
+
+.social:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+
+.card-6 {
+  background-color: hsl(43, 84%, 65%);
+  background-image: url(images/icon-self-care.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.card-6 .self {
+  background-color: hsl(235, 46%, 20%);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 80%;
+  width: 100%;
+  padding: 20px;
+}
+
+.card-6 .self h2 {
+  color: white;
+  margin-top: 8px;
+  font-size: medium;
+}
+
+.card-6 .self h3 {
+  color: white;
+  margin-top: 24px;
+  margin-left: 7px;
+  font-size: 40px;
+}
+
+.card-6 .self p {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(236, 100%, 87%);
+  letter-spacing: 1px;
+  margin-left: 7px;
+}
+
+.self:hover {
+  background-color: hsl(235, 45%, 61%);
+}
